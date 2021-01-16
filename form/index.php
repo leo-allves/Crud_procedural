@@ -13,22 +13,25 @@
 <body>
     <div class="container" id="tamanhoContainer">
         <h4>Formulário de Cadastro</h4>
-        <form style="margin-top: 20px;" action="" method="post">
+        <!--Quando vamos enviar algo ou declarar informações em variaveis usamos o POST
+            Quando vamos editar um produto relacionado a id, mandamos o id na url e então usamos GET para pegar essas informações na url
+            Atribuir um valor POST // Pegar um valor GET-->
+        <form style="margin-top: 20px;" action="_inserir_produto.php" method="post">
             <div class="form-group">
                 <label>Nº Produto</label>
-                <input type="number" class="form-control" placeholder="Insira o número do produto">     
+                <input type="number" class="form-control" name="nroproduto" placeholder="Insira o número do produto" required autocomplete="off">     
             </div>
 
             <div class="form-group">
                 <label>Nome Produto</label>
-                <input type="text" class="form-control" placeholder="Insira o nome do produto">     
+                <input type="text" class="form-control" name="nomeproduto" placeholder="Insira o nome do produto" required autocomplete="off">     
             </div>
 
             
 
             <div class="form-group">
                 <label>Categoria</label>
-                <select class="form-control">
+                <select class="form-control" name="categoria">
                     <option>Periferico</option>
                     <option>Hardware</option>
                     <option>Software</option>
@@ -38,18 +41,18 @@
 
             <div class="form-group">
                 <label>Quantidade</label>
-                <input type="number" class="form-control" placeholder="Insira a quantidade do produto">     
+                <input type="number" class="form-control" name="quantidade" placeholder="Insira a quantidade do produto" required autocomplete="off">     
             </div>
 
             <div class="form-group">
-                <label>Fornecedor</label>
-                <select class="form-control">
-                    <option>Forncedor A</option>
-                    <option>Forncedor B</option>
-                    <option>Forncedor C</option>
+                <label>Fornecedor</label> 
+                <select class="form-control" name="fornecedor">
+                    <option>Fornecedor A</option>
+                    <option>Fornecedor B</option>
+                    <option>Fornecedor C</option>
                 </select>
             </div>
-
+            <!--usamos o botao submit quando queremos enviar alguma coisa-->
             <button type="submit" class="btn btn-secondary btn-sm" id="button_submit">Cadastrar</button>
 
         </form>
