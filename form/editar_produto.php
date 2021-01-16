@@ -26,7 +26,7 @@ $id = $_GET['id'];
         <!--Quando vamos enviar algo ou declarar informações em variaveis usamos o POST
             Quando vamos editar um produto relacionado a id, mandamos o id na url e então usamos GET para pegar essas informações na url
             Atribuir um valor POST // Pegar um valor GET-->
-        <form style="margin-top: 20px;" action="_inserir_produto.php" method="post">
+        <form style="margin-top: 20px;" action="_atualizar_produto.php" method="post">
             <?php 
                 //SELECT aqui ele vai listar tudo que tem o id para consulta
                 $sql = "SELECT * FROM `estoque` WHERE id_estoque =$id";
@@ -43,7 +43,8 @@ $id = $_GET['id'];
             ?>
                 <div class="form-group">
                     <label>Nº Produto</label>
-                    <input type="number" class="form-control" name="nroproduto" value="<?php echo $nroproduto ?>" disabled>    
+                    <input type="number" class="form-control" name="nroproduto" value="<?php echo $nroproduto ?>" disabled>
+                    <input type="number" class="form-control" name="id" value="<?php echo $id ?>"  style="display: none">  <!-- tbm pode se usar o hidden -->   
                 </div>
 
                 <div class="form-group">
@@ -55,7 +56,7 @@ $id = $_GET['id'];
 
                 <div class="form-group">
                     <label>Categoria</label>
-                    <select class="form-control" name="categoria" value="<?php echo $categoria ?>">>
+                    <select class="form-control" name="categoria" value="<?php echo $categoria ?>">
                         <option>Periférico</option>
                         <option>Hardware</option>
                         <option>Software</option>

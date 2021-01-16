@@ -19,7 +19,7 @@
         <form style="margin-top: 20px;" action="_inserir_produto.php" method="post">
             <div class="form-group">
                 <label>Nº Produto</label>
-                <input type="number" class="form-control" name="nroproduto" placeholder="Insira o número do produto" required autocomplete="off">     
+                <input type="number" class="form-control" name="nroproduto" placeholder="Insira o número do produto" required autocomplete="off">    
             </div>
 
             <div class="form-group">
