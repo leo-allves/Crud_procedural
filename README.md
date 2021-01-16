@@ -17,7 +17,7 @@
 <hr>
  
 <h3>Foi criado no projeto :</h3>
-<h5>ormulário (criação com bootstrap e alterações de html e css extra)</h5>
+<h5>Formulário (criação com bootstrap e alterações de html e css extra)</h5>
 <h5>Tabela (Criação com fundo Dark) foi criada de forma dinâmica</h5>
 <h5>Mensagens de altenticação de (cadastrado, atualizado ou deletado com sucesso)!</h5>
 <br>
