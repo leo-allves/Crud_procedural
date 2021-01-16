@@ -13,7 +13,6 @@
 <h3>BACK</h3>
 <h5>PHP 7.4.3</h5>
 <h5>MySqli(Banco de Dados)</h5>
- <br>
 
 <hr>
  
