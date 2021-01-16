@@ -56,6 +56,9 @@
             <td>
                 <!--<button type="button" class="btn btn-warning btn-sm" style="color: #fff;" href="#" ><i class="far fa-edit"></i>&nbsp;Editar</button>-->
                 <a type="button" class="btn btn-warning btn-sm" href="editar_produto.php?id=<?php echo $id_estoque ?>" role="button"><i class="far fa-edit"></i>&nbsp;Editar</a>
+                
+                <a type="button" class="btn btn-danger btn-sm" href="deletar_produto.php?id=<?php echo $id_estoque ?>" role="button"><i class="far fa-trash-alt"></i>&nbsp;Excluir</a>
+            
             
             </td>
 
