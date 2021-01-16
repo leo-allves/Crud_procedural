@@ -8,6 +8,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../css/bootstrap.css">
     <link rel="stylesheet" href="../css/style.css">
+    <script src="https:kit.fontawesome.com/8786c39b09.js"></script>
     <title>Formulário de Cadastro</title>
 </head>
 <body>
@@ -24,6 +25,7 @@
       <th scope="col">Categoria</th>
       <th scope="col">Quantidade</th>
       <th scope="col">Fornecedor</th>
+      <th scope="col">Ação</th>
     </tr>
   </thead> 
         <!--Sempre usamos While para percorrer a tabela-->
@@ -51,6 +53,12 @@
             <td><?php echo $categoria ?></td>
             <td><?php echo $quantidade ?></td>
             <td><?php echo $fornecedor ?></td>
+            <td>
+                <!--<button type="button" class="btn btn-warning btn-sm" style="color: #fff;" href="#" ><i class="far fa-edit"></i>&nbsp;Editar</button>-->
+                <a type="button" class="btn btn-warning btn-sm" href="editar_produto.php?id=<?php echo $id_estoque ?>" role="button"><i class="far fa-edit"></i>&nbsp;Editar</a>
+            
+            </td>
+
         </tr>
 
 
