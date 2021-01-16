@@ -1,6 +1,6 @@
 <h1>Crud_procedural</h1>
 
-<h2><i>Crud criado com :<i></h2>
+<h2><i>Crud Estoques de Produtos criado com :<i></h2>
 
 <hr>
 
