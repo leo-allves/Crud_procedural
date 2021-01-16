@@ -1,0 +1,18 @@
+*{
+    font-family: 'Yusei Magic', sans-serif;
+    font-size:17px;
+
+}
+body{
+    background-color:#ECECEC;
+}
+#tamanhoContainer{
+    width: 500px;
+    margin-top: 40px;
+}
+
+#button_submit{
+    float:right;
+    background-color:#25020F;
+    color: #FFFFFF;
+}
