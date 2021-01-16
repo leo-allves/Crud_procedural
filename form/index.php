@@ -32,7 +32,7 @@
             <div class="form-group">
                 <label>Categoria</label>
                 <select class="form-control" name="categoria">
-                    <option>Periferico</option>
+                    <option>Periférico</option>
                     <option>Hardware</option>
                     <option>Software</option>
                     <option>Celulares</option>
@@ -58,6 +58,6 @@
         </form>
     </div>
     
-
+    <script type="bootstrap/js" src="..//js/bootstrap.js"></script>
 </body>
 </html>
