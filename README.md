@@ -1,19 +1,27 @@
 # Crud_procedural
 
- Crud criado com :
- 
- FRONT
-    *Bootstrap(Css e Js)
-    *Css e Html puro em algumas situações
+<u>Crud criado com :/<u>
 
- BACK
-    *PHP 7.4.3
-    *MySqli(Banco de Dados)
+<hr>
 
+# FRONT
+    Bootstrap(Css e Js)
+</br>
+    Css e Html puro em algumas situações
+</br>
+
+<hr>
+
+# BACK
+    PHP 7.4.3<br>
+    MySqli(Banco de Dados)<br>
+
+ <hr>
  
- 
- Foi criado no projeto :
-    *Formulário (criação com bootstrap e alterações de html e css extra)
-    *Tabela (Criação com fundo Dark) foi criada de forma dinâmica
-    *Mensagens de altenticação de (cadastrado, atualizado ou deletado com sucesso)!
+ # Foi criado no projeto :
+    Formulário (criação com bootstrap e alterações de html e css extra)
+<br>
+    Tabela (Criação com fundo Dark) foi criada de forma dinâmica
+<br>
+    Mensagens de altenticação de (cadastrado, atualizado ou deletado com sucesso)!
 
