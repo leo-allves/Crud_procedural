@@ -31,7 +31,7 @@
 - ***Confirmação, inserir, alterar ou excluir***
 <br>
  Foi colocada mensagens como essa ao final de cada processo para que o usuário, tenha facilidade de saber se aquela inserção, alteração ou delete foi realizado    com sucesso ou não.
-<br>
+
 ![mensagem de sucesso](https://user-images.githubusercontent.com/55600929/104844758-c9ea5c80-58b0-11eb-816d-8b1c8d9ed68d.png)
 
 
