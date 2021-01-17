@@ -13,9 +13,8 @@
 <h5>Mensagens de altenticação de (cadastrado, atualizado ou deletado com sucesso)!</h5>
 <br>
 
-**### Crud-1.0 versão estável do projeto**
 
-- Essa versão e a conclusão do projeto final, a partir dessa versão será implementada as melhorias ou atualizações
+**Essa versão e a conclusão do projeto final, a partir dessa versão será implementada as melhorias ou atualizações**
 
 
 - ***Index- Menu Inicial***
