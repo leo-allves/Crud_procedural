@@ -52,10 +52,13 @@
                     <option>Fornecedor C</option>
                 </select>
             </div>
+            <!--botão para retornar ao menu-->
+            <a href="index.php" role="button" class="btn btn-info btn-sm" >Voltar</a>
             <!--usamos o botao submit quando queremos enviar alguma coisa-->
             <button type="submit" class="btn btn-secondary btn-sm" id="button_submit">Cadastrar</button>
 
         </form>
+        
     </div>
     
     <script type="bootstrap/js" src="..//js/bootstrap.js"></script>

@@ -58,19 +58,18 @@
                 <a type="button" class="btn btn-warning btn-sm" href="editar_produto.php?id=<?php echo $id_estoque ?>" role="button"><i class="far fa-edit"></i>&nbsp;Editar</a>
                 
                 <a type="button" class="btn btn-danger btn-sm" href="deletar_produto.php?id=<?php echo $id_estoque ?>" role="button"><i class="far fa-trash-alt"></i>&nbsp;Excluir</a>
-            
-            
             </td>
-
         </tr>
-
-
     <?php } ?>  <!--o fechamento da tag deve aqui pois se nao ele não listara um por um ate o ultimo -->
 
     </tr>
 </table>
     
-    
+ <div style="text-align:right;">
+        <!--botão para retornar ao menu-->
+    <a href="index.php" role="button" class="btn btn-info btn-sm" >Voltar</a>
+
+ </div>
 
 
     <script type="bootstrap/js" src="..//js/bootstrap.js"></script>

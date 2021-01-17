@@ -26,8 +26,8 @@
                 <div class="card">
                     <div class="card-body">
                         <h5 class="card-title">Lista de Produtos</h5>
-                            <p class="card-text">Opção para pesquisar produtos.</p>
-                            <a href="listar_produtos.php" class="btn btn-info">Pesquisar</a>
+                            <p class="card-text">Opção para pesquisar, editar e excluir os produtos.</p>
+                            <a href="listar_produtos.php" class="btn btn-info"> Pesquisar Produtos</a>
                     </div>
                 </div>
             </div>
