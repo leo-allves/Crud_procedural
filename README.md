@@ -1,19 +1,22 @@
 <h1><i>Crud Estoques de Produtos criado com :<i></h1>
 <hr>
-<h3>Criado com:</h3>
+<h3>FRONT</h3>
 <h5>Bootstrap(Css e Js)</h5>
 <h5>Css e Html puro em algumas situações</h5>
+<hr>
+<h3>BACK</h3>
 <h5>PHP 7.4.3</h5>
 <h5>MySqli(Banco de Dados)</h5>
 <hr> 
 <h3>Foi criado no projeto :</h3>
-<h5>Menu Inicial</h5>
 <h5>Formulário (criação com bootstrap e alterações de html e css extra)</h5>
 <h5>Tabela (Criação com fundo Dark) foi criada de forma dinâmica</h5>
 <h5>Mensagens de altenticação de (cadastrado, atualizado ou deletado com sucesso)!</h5>
 <br>
 
-**Sistema de Estoque de Produtos**
+**### Crud-1.0 versão estável do projeto**
+
+- Essa versão e a conclusão do projeto final, a partir dessa versão será implementada as melhorias ou atualizações
 
 
 - ***Index- Menu Inicial***
