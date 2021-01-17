@@ -18,7 +18,7 @@
                     <div class="card-body">
                         <h5 class="card-title">Adicionar Produto</h5>
                             <p class="card-text">Opção para adicionar produto em nosso estoque.</p>
-                            <a href="adicionar_produto.php" class="btn btn-info">Cadastrar Produto</a>    
+                            <a href="adicionar_produto.php" class="btn btn-info btn-sm">Cadastrar Produto</a>    
                     </div>
                 </div>
             </div>
@@ -27,7 +27,7 @@
                     <div class="card-body">
                         <h5 class="card-title">Lista de Produtos</h5>
                             <p class="card-text">Opção para pesquisar, editar e excluir os produtos.</p>
-                            <a href="listar_produtos.php" class="btn btn-info"> Pesquisar Produtos</a>
+                            <a href="listar_produtos.php" class="btn btn-info btn-sm"> Pesquisar Produtos</a>
                     </div>
                 </div>
             </div>
