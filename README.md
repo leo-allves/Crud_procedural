@@ -17,7 +17,7 @@
 **### Crud-1.0 versão estável do projeto**
 
 - Essa versão e a conclusão do projeto final, a partir dessa versão será implementada as melhorias ou atualizações
-- [https://github.com/leo-allves/Crud_procedural.git](url)
+
 
 - ***Index- Menu Inicial***
 
