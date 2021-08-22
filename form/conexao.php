@@ -1,7 +1,7 @@
 <?php 
 
     $servername = "localhost";
-    $database = "bd_crup_procedural";
+    $database = "crup_procedural";
     $username = "root";
     $password = "";
 
