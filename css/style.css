@@ -4,15 +4,38 @@
 
 }
 body{
-    background-color:#ECECEC;
+    background-color:hsl(0, 0%, 14%);
+    color: aliceblue;
 }
+h5.card-title{
+    color: #17a2b8;
+}
+p.card-text{
+    color: rgb(66, 66, 66);
+}
+
 #tamanhoContainer{
-    width: 500px;
+    width: 800px;
     margin-top: 40px;
 }
 
-#button_submit{
+button.button_submit{
     float:right;
-    background-color:#25020F;
-    color: #FFFFFF;
+    background-color:#728f85;
+    color: black;
+}
+a.button_submit1{
+    background-color:#17a2b8;
+    color: black;
+}
+
+div.direct-form{
+    margin-top: 9px;
+}
+
+.form-group{
+    margin-bottom: 15px;
+}
+input:placeholder{
+    font-size:5px;
 }

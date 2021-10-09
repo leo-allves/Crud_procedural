@@ -6,7 +6,8 @@
     <link rel = "preconnect" href = "https://fonts.gstatic.com">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../css/style.css">
     <title>Formulário de Cadastro</title>
 </head>
@@ -26,8 +27,6 @@
                 <label>Nome Produto</label>
                 <input type="text" class="form-control" name="nomeproduto" placeholder="Insira o nome do produto" required autocomplete="off">     
             </div>
-
-            
 
             <div class="form-group">
                 <label>Categoria</label>
@@ -52,15 +51,14 @@
                     <option>Fornecedor C</option>
                 </select>
             </div>
-            <!--botão para retornar ao menu-->
-            <a href="index.php" role="button" class="btn btn-info btn-sm" >Voltar</a>
-            <!--usamos o botao submit quando queremos enviar alguma coisa-->
-            <button type="submit" class="btn btn-secondary btn-sm" id="button_submit">Cadastrar</button>
-
+            <div class="direct-form">
+                <!--botão para retornar ao menu-->
+                <a href="../index.php" role="button" class="btn  btn-sm button_submit1" >Voltar</a>
+                <!--usamos o botao submit quando queremos enviar alguma coisa-->
+                <button type="submit" class="btn btn-sm button_submit">Cadastrar</button>
+            </div>
         </form>
         
     </div>
-    
-    <script type="bootstrap/js" src="..//js/bootstrap.js"></script>
 </body>
 </html>
