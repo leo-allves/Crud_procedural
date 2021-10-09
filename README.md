@@ -19,21 +19,27 @@
 
 - ***Index- Menu Inicial***
 
-![menu](https://user-images.githubusercontent.com/55600929/104844367-9dcddc00-58ae-11eb-8be3-514717af9e38.png)
+![index](https://user-images.githubusercontent.com/55600929/136676426-ee62f555-857e-4ec5-b8b9-a4c0dc21472e.png)
 
 - ***Formulário - Cadastro de Produtos***
 
-![Formulário de Cadastro](https://user-images.githubusercontent.com/55600929/104844485-3f552d80-58af-11eb-8f41-f39affd9bd01.png)
+![cadastrar](https://user-images.githubusercontent.com/55600929/136676428-4fc38c66-5344-45fa-a5a0-08d875f05d04.png)
+![cadastrar form](https://user-images.githubusercontent.com/55600929/136676429-7a43e422-fdfc-49a2-bea1-5e5e0a327960.png)
 
 - ***Tabela - Lista de Produtos***
-![Tabela-lista-de-produtos](https://user-images.githubusercontent.com/55600929/104844580-ca362800-58af-11eb-8969-1f64715510e4.png)
+ 
+![listar](https://user-images.githubusercontent.com/55600929/136676459-1cc2a7ce-dd5e-4603-b983-b05d7695de80.png)
+
+- ***Tabela - Editar Produto***
+ 
+![editar](https://user-images.githubusercontent.com/55600929/136676433-f6ae9b52-b83c-459e-987f-5fc8d7eb1a5d.png)
 
 - ***Confirmação, inserir, alterar ou excluir***
 <br>
+ 
  Foi colocada mensagens como essa ao final de cada processo para que o usuário, tenha facilidade de saber se aquela inserção, alteração ou delete foi realizado    com sucesso ou não.
 
-![mensagem de sucesso](https://user-images.githubusercontent.com/55600929/104844758-c9ea5c80-58b0-11eb-816d-8b1c8d9ed68d.png)
-
+![sucesso](https://user-images.githubusercontent.com/55600929/136676439-b77a6562-98c1-41e4-8fbd-551817afdc04.png)
 
 
 
